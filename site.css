@@ -1,0 +1,184 @@
+@font-face {
+	font-family: "cargo";
+	src: url('cargo.ttf');
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+#logo {
+	width: 100%;
+	height: 400px;
+	background: url('banner1.jpg');
+	background-size: 25% 25%;
+}
+
+#shadow {
+	width: 100%;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+}
+
+#title {
+	font-size: 600%;
+	font-family: "cargo";
+	color: white;
+}
+
+#menu {
+	width: 100%;
+	height: 60px;
+	background: #2ecc71;
+}
+
+#menu ul {
+	display: block;
+	list-style: none;
+	margin-left: 30%;
+}
+
+#menu ul li {
+	float: left;
+	height: 32px;
+	padding-top: 15px;
+}
+
+#menu ul li a {
+	color: #FAFAFA;
+	font-family: Lucida grande;
+	text-decoration: none;
+}
+
+#menu ul li a:hover, #menu ul li a:before{
+	color: white;
+	bottom: 0px;
+}
+
+#menu ul li:hover {
+	border-bottom: 2px solid white;
+}
+
+#menu ul li:nth-child(1){
+	width: 10%;
+	text-align: center;
+}
+
+#menu ul li:nth-child(2){
+	width: 15%;
+	text-align: center;
+
+}
+
+#menu ul li:nth-child(3){
+	width: 15%;
+	text-align: center;
+}
+
+#menu ul li:nth-child(4){
+	width: 12%;
+	text-align: center;
+}
+
+.center {
+	margin: auto;
+}
+
+#content {
+	width: 50%;
+	min-height: 500px;
+	height: auto;
+}
+
+#content hr {
+	border-color: black;
+}
+
+.text {
+	color: black;
+	font-family: Lucida grande;
+}
+
+#Departement {
+	 -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 1px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+#cpost {
+	margin-left: 18%; 
+	width: 30%; 
+	height: 30px; 
+	margin-bottom: -20px;
+	font-size: 20px;
+}
+
+input[type=submit] {
+	background: rgba(51, 51, 51, 0.89);
+  	color: #ffffff;
+  	padding: 0px 15px;	
+	margin-left: 80%;
+	height: 45px;
+	font-size: 20px;
+	font-family: Lucida grande;
+	border-radius: 5px;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background:#333333;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 400px;
+	margin-top: 10%;
+	float: left;
+	position: relative;
+}
+
+.resultat {
+font-family: Lucida Grande;
+font-weight: bold;
+color: black;
+}
+
+.ville {
+font-family: lucida grande;
+color: grey;
+font-size: px;
+}
+
+#info1 {
+       float: left;
+       height: 100px;
+       width: 40%;
+}
+
+#info2 {
+      float: left;
+      margin-left: 15%;
+      width: 40%;
+}
