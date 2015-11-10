@@ -18,6 +18,8 @@
 			<li><a href="index.php">Accueil</a></li>
 			<li><a href="findsalle.php">Trouver une prise</a></li>
 			<li><a href="findsport.php">Trouver une voiture</a></li>
+			<li><a href="trouveruneborne.php">Trouver une Borne</a></li>
+
 			<li><a>A propos</a></li>
 		</ul>
 	</div>

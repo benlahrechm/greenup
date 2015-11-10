@@ -19,6 +19,8 @@
 			<li><a href="index.php">Accueil</a></li>
 			<li><a href="findsalle.php">Trouver une prise</a></li>
 			<li><a href="findsport.php">Trouver une voiture</a></li>
+			<li><a href="trouveruneborne.php">Trouver une Borne</a></li>
+
 			<li><a>A propos</a></li>
 		</ul>
 	</div>
@@ -39,43 +41,9 @@
 	  		<option value="95">Val d'Oise 95</option>
 	  	</select><br/><br/>
        <a class="text">Selectionner une ou plusieurs cases</a><br/><br/>
-       <input type="checkbox" name="Football" id="football" /> <label class="text" for="football">Football</label>
-       <input type="checkbox" name="Rugby" id="rugby" /> <label class="text" for="rugby">Rugby</label>
-       <input type="checkbox" name="Boxe anglaise" id="boxe_angl" /> <label class="text" for="boxe angl">Boxe Anglaise</label>
-       <input type="checkbox" name="Boxe francaise" id="boxe_fr" /> <label class="text" for="boxe fr ">Boxe Francaise</label><br/>
-       <input type="checkbox" name="Boxe thaïlandaise" id="boxe_thai" /> <label class="text" for="boxe thai">Boxe thailandaise</label>
-       <input type="checkbox" name="Basket-ball" id="basketball" /> <label class="text" for="basketball">Basketball</label>
-       <input type="checkbox" name="Handball" id="handball" /> <label class="text" for="handball">Handball</label>
-       <input type="checkbox" name="Tennis" id="tennis" /> <label class="text" for="tennis">Tennis</label><br/>
-       <input type="checkbox" name="Judo" id="judo" /> <label class="text" for="judo">Judo</label>
-       <input type="checkbox" name="Natation" id="natation" /> <label class="text" for="natation">Natation</label>
-       <input type="checkbox" name="Volley-ball" id="volley" /> <label class="text" for="volley">Volley-Ball</label>
-       <input type="checkbox" name="Fitness" id="fitness" /> <label class="text" for="fitness">Fitness</label><br/>
-       <a href="#void" id="affmore" class="text">Plus...</a>
-	     <input type="checkbox" name="Badminton" id="badminton" /> <label class="text" for="badminton">Badminton</label>
-       <input type="checkbox" name="Gymnastique" id="gymnastique" /> <label class="text" for="gymnastique">Gymnastique</label>
-       <input type="checkbox" name="Tennis de table" id="Tennis_de_table" /> <label class="text" for="Tennis de table">Tennis de Table</label>
-       <input type="checkbox" name="Squash" id="squash" /> <label class="text" for="squash">Squash</label><br/>
-       <input type="checkbox" name="Musculation" id="musculation" /> <label class="text" for="musculation">Musculation</label>
-       <input type="checkbox" name="Aquagym" id="aquagym" /> <label class="text" for="aquagym">Aquagym</label>
-       <input type="checkbox" name="Karaté" id="karate" /> <label class="text" for="karate">Karate</label>
-       <input type="checkbox" name="Hockey" id="hockey" /> <label class="text" for="hockey">Hockey</label><br/>
-       <input type="checkbox" name="Full contact" id="full contact" /> <label class="text" for="full contact">Full Contact</label>
-       <input type="checkbox" name="Escalade" id="escalade" /> <label class="text" for="escalade">Escalade</label>
-       <input type="checkbox" name="Equitation" id="Equitation" /> <label class="text" for="Equitation">Equitation</label>
-       <input type="checkbox" name="Light contact" id="Light_contact" /> <label class="text" for="Light contact">Light Contact</label><br/>
-     	  <input type="checkbox" name="First full" id="First_full" /> <label class="text" for="First full">First Full</label>
-       <input type="checkbox" name="Taekwondo" id="Taekwondo" /> <label class="text" for="Taekwondo">Taekwondo</label>
-       <input type="checkbox" name="Karate jutsu" id="Karate_jutsu" /> <label class="text" for="Karate jutsu">Karate jutsu</label>
-       <input type="checkbox" name="Goshin jutsu" id="Goshin_jutsu" /> <label class="text" for="Goshin jutsu">Goshin jutsu</label><br/>
-       <input type="checkbox" name="Kobudo" id="Kobudo" /> <label class="text" for="text">Kobudo/Nihon Tai-jutsu</label>
-       <input type="checkbox" name="Kobudo" id="Nambudo" /> <label class="text" for="text">Taijitsu/Nambudo</label>
-       <input type="checkbox" name="Kobudo" id="Nunchaku" /> <label class="text" for="text">Ninjutsu/Nunchaku</label>
-       <input type="checkbox" name="Water-polo" id="Water-polo" /> <label class="text" for="Water-polo">Water-polo</label><br/>
-       <input type="checkbox" name="Golf" id="Golf" /> <label class="text" for="Golf">Golf</label>
-       <input type="checkbox" name="Sumo" id="Sumo" /> <label class="text" for="Sumo">Sumo</label>
-       <input type="checkbox" name="Kayak" id="Kayak" /> <label class="text" for="Kayak">Kayak</label>
-       <input type="checkbox" name="Danse" id="Danse" /> <label class="text" for="Danse">Danse</label>
+       <input type="checkbox" name="BMW - i3" id="BMW - i3" /> <label class="text" for="BMW - i3">BMW - i3</label>
+       <input type="checkbox" name="Bolloré - Bluecar" id="Bolloré - Bluecar" /> <label class="text" for="Bolloré - Bluecar">Bolloré - Bluecar</label>
+       <input type="checkbox" name="Mitsubishi - I-MiEV" id="Mitsubishi - I-MiEV" /> <label class="text" for="Mitsubishi - I-MiEV">Mitsubishi -IMiEV</label> 
    </p>
    </div>
    <br/><input type="submit" name="submit" id="search" value="Recherche" style="float: right; margin-right: 10%;"/><br/><br/>
